@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clipToPadding="true"
     android:fitsSystemWindows="true"
     tools:context="com.brioal.zhihudaily.content.ContentActivity">
 
@@ -12,6 +13,7 @@
         android:id="@+id/detail_appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="230dp"
+        android:clipToPadding="true"
         android:fitsSystemWindows="true"
         android:theme="@style/AppTheme.AppBarOverlay">
 
@@ -19,6 +21,7 @@
             android:id="@+id/detail_toolBarLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:clipToPadding="true"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
@@ -27,6 +30,7 @@
                 android:id="@+id/detail_toolBarBg"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:clipToPadding="true"
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
                 android:src="@mipmap/ic_temp_pic"
